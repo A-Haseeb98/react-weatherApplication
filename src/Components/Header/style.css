@@ -1,0 +1,11 @@
+.header{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    position: static;
+    box-sizing: border-box;
+
+}
