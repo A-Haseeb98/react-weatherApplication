@@ -1,8 +1,10 @@
 import './style.css'
-import { GoSearch } from "react-icons/go";
 
-function Button({onClick}) {
-    return <button onClick = {onClick}><GoSearch /></button>
+function Button({ onclick, children }) {
+    return (
+        <div>
+            <button onClick={onclick}>{children}</button>
+        </div>
+    )
 }
-
 export default Button;
